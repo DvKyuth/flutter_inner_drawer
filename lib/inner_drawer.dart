@@ -598,7 +598,7 @@ class InnerDrawerState extends State<InnerDrawer>
                         widthFactor: wFactor,
                         child: RepaintBoundary(
                           child: FocusScope(
-                              node: _focusScopeNode, child: _scaffold()),
+                              node: _focusScopeNode, child: widget.scaffold),
                         )),
                   ),
 
